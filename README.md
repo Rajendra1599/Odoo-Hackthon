@@ -47,11 +47,10 @@ Go to **http://localhost:5173** — you'll land on `/login`. Use one of the seed
 
 | Role              | Email                          | Password      |
 |-------------------|---------------------------------|---------------|
-| FleetManager      | fleetmanager@transitops.dev     | password123   |
-| Driver            | driver@transitops.dev           | password123   |
-| SafetyOfficer     | safety@transitops.dev           | password123   |
-| FinancialAnalyst  | finance@transitops.dev          | password123   |
-
+| FleetManager      | fleetmanager@transitops.dev     | fleetmanager   |
+| Driver            | driver@transitops.dev           | driver   |
+| operation manager     | operations@transitops.dev          |operations   |
+| despatcher | dispatcher@transitops.dev       |dispatcher  |
 The frontend's dev server proxies every `/api/*` request to `http://localhost:4000` (see `frontend/vite.config.js`), so as long as both servers are running, everything just works — no extra configuration needed.
 
 ## More details
